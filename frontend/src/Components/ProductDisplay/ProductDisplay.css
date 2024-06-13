@@ -1,0 +1,111 @@
+.container {
+    max-width: 1000px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 0 15px; /* Optional padding for the container */
+    margin-bottom: 130px;
+}
+
+.product-display {
+    display: flex;
+    margin: 0px 20px; /* Reduced from 85px */
+}
+
+.productDisplayLeft {
+    display: flex;
+    gap: 10px; /* Reduced from 17px */
+}
+
+.productDisplayImageList {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Reduced from 16px */
+}
+
+.productDisplayImageList img {
+    height: 119px; /* Reduced from 163px */
+}
+
+.productDisplayImageMain {
+    width: 400px; /* Reduced from 400px */
+    height: 500px; /* Reduced from 500px */
+}
+
+.productDisplayRight {
+    margin: 0px 20px; /* Reduced from 35px */
+    display: flex;
+    flex-direction: column;
+}
+
+.productDisplayRight h1 {
+    color: #3d3d3d;
+    font-size: 25px; /* Reduced from 30px */
+    font-weight: 700;
+}
+
+.productDisplayRightStar {
+    display: flex;
+    align-items: center;
+    margin-top: 15px; /* Reduced from 30px */
+    gap: 3px; /* Reduced from 5px */
+    color: #1c1c1c;
+    font-size: 14px; /* Reduced from 16px */
+}
+
+.prodcutDisplayRightPrices {
+    display: flex;
+    margin: 20px 0px; /* Reduced from 40px */
+    gap: 10px; /* Reduced from 15px */
+    font-size: 18px; /* Reduced from 20px */
+    font-weight: 700;
+}
+
+.priceOld {
+    color: #818181;
+    text-decoration: line-through;
+}
+
+.priceNew {
+    color: #ff4141;
+}
+
+.productDisplayRightSize h1 {
+    margin-top: 20px; /* Reduced from 30px */
+    color: #656565;
+    font-size: 16px; /* Reduced from 18px */
+    font-weight: 600; /* Corrected from 60 */
+}
+
+.productDisplaySizes {
+    display: flex;
+    margin: 10px 0px; /* Reduced from 15px */
+    gap: 10px; /* Reduced from 20px */
+}
+
+.productDisplayRightSize div {
+    padding: 10px 15px; /* Reduced from 10px 20px */
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button {
+    padding: 10px 20px; /* Reduced from 15px 30px */
+    width: 120px; /* Reduced from 150px */
+    font-size: 12px; /* Reduced from 14px */
+    font-weight: 600;
+    color: white;
+    background: #ff4141;
+    margin-bottom: 20px; /* Reduced from 30px */
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.productDisplayCategory {
+    margin-top: 5px; /* Reduced from 10px */
+}
+
+.productDisplayCategory span {
+    font-weight: 600;
+}

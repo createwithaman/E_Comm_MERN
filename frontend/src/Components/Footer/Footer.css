@@ -1,0 +1,67 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; /* Reduced gap */
+
+  bottom: 0;
+  width: 100%;
+  background: #f9f9f9; /* Optional background color */
+  padding: 10px 0; /* Padding to add some spacing */  
+
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Reduced gap */
+}
+
+.footer-logo p {
+  color: #383838;
+  font-size: 24px; /* Reduced font size */
+  font-weight: 700;
+}
+
+.footer-link {
+  display: flex;
+  list-style: none;
+  gap: 20px; /* Reduced gap */
+  color: #252525;
+  font-size: 14px; /* Reduced font size */
+}
+
+.footer-link li {
+  cursor: pointer;
+}
+
+.footer-social-icon {
+  display: flex;
+  gap: 10px; /* Reduced gap */
+}
+
+.footer-icon-container {
+  padding: 6px; /* Reduced padding */
+  background: #fbfbfb;
+  border: 1px solid #ebebeb;
+  border-radius: 3px; /* Optional: to maintain consistent design */
+}
+
+.footer-copy-write {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Reduced gap */
+  width: 100%;
+  color: #1a1a1a;
+  font-size: 14px; /* Reduced font size */
+}
+
+.footer-copy-write hr {
+  width: 80%;
+  border: none;
+  border-radius: 10px;
+  height: 1px; /* Reduced height */
+  background: #c7c7c7;
+}

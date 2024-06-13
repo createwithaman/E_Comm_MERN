@@ -1,0 +1,62 @@
+/* RelatedProduct.css */
+
+.relatedProduct {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.relatedProduct h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.relatedProduct hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+.relatedProduct-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.relatedProduct-item .item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: calc(23.2% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.relatedProduct-item .item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.relatedProduct-item .item .item-name {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.relatedProduct-item .item .item-price {
+    font-size: 16px;
+    color: #888;
+    margin-top: 5px;
+}
+
+.relatedProduct-item .item .item-price .new-price {
+    color: #e74c3c;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.relatedProduct-item .item .item-price .old-price {
+    text-decoration: line-through;
+    color: #bbb;
+}
