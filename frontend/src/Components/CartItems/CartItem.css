@@ -1,14 +1,14 @@
-.cartItem{
+.cartItem {
     margin: 100px 170px;
 }
 
-.cartItem hr{
+.cartItem hr {
     height: 3px;
     background: #e2e2e2;
     border: 0;
 }
 
-.cartItem-formate-main{
+.cartItem-formate-main {
     display: grid;
     grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
     align-items: center;
@@ -19,33 +19,33 @@
     font-weight: 600;
 }
 
-.cartItem-formate{
- font-size: 17px;
- font-weight: 500;
+.cartItem-formate {
+    font-size: 17px;
+    font-weight: 500;
 }
 
-.cartIcon-productIcon{
+.cartIcon-productIcon {
     height: 62px;
 }
 
-.cartItem-removeIcon{
+.cartItem-removeIcon {
     width: 15px;
     margin: 0px 40px;
 }
 
-cartItem-quantity{
+.cartItem-quantity {
     width: 64px;
     height: 50px;
     border: 2px solid #ebebeb;
     background: white;
 }
 
-.cartItem-down{
+.cartItem-down {
     display: flex;
     margin: 100px 0px;
 }
 
-.cartItem-total{
+.cartItem-total {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -53,13 +53,13 @@ cartItem-quantity{
     gap: 40px;
 }
 
-.cart-item-totalItem{
+.cart-item-totalItem {
     display: flex;
     justify-content: space-between;
     padding: 15px 0px;
 }
 
-.cartItem-total button{
+.cartItem-total button {
     width: 262px;
     height: 58px;
     border: none;
@@ -70,17 +70,17 @@ cartItem-quantity{
     cursor: pointer;
 }
 
-.cartItem-promoCode{
-    flex :1;
+.cartItem-promoCode {
+    flex: 1;
     font-size: 16px;
     font-weight: 500;
 }
 
-.cartItem-promoCode p{
+.cartItem-promoCode p {
     color: #555;
 }
 
-.cartItem-promoBox{
+.cartItem-promoBox {
     width: 504px;
     margin: 15px;
     padding-left: 20px;
@@ -88,7 +88,7 @@ cartItem-quantity{
     background: #eaeaea;
 }
 
-.cartItem-promoBox input{
+.cartItem-promoBox input {
     border: none;
     outline: none;
     background: transparent;
@@ -97,7 +97,7 @@ cartItem-quantity{
     height: 50px;
 }
 
-.cartItem-promoBox button{
+.cartItem-promoBox button {
     width: 170px;
     height: 50px;
     font-size: 16px;
@@ -105,3 +105,5 @@ cartItem-quantity{
     color: white;
     cursor: pointer;
 }
+
+

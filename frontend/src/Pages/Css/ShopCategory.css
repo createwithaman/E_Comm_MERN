@@ -29,6 +29,8 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 50px;
     gap: 30px;
+    margin-left: 75px;
+    width: 70%;
 }
 
 .shop-category-products .item img {
